@@ -11,6 +11,11 @@ Usage::
     uv run workspace-cli call search_gmail_messages query="is:unread" max_results=5
 """
 
+import utils.net
+import utils.clients
+import utils.http_session
+import utils.transport
+import utils.session
 import argparse
 import asyncio
 import json
